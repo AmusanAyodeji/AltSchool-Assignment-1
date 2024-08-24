@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Application Form</title>
+        <style>
+            body{
+                background-color: bisque;
+                font-size: 20px;
+            }
+            main{
+                padding: 15px;
+                padding-top: 0px;
+                background-color: rgb(237, 191, 142);
+                width:40%;
+                margin: auto;
+            }
+            h1{
+                font-size: 50px;
+                margin-bottom: 0px;
+            }
+            #button{
+                width: unset;
+                font-size: 30px;
+                border-radius: 10px;
+            }
+            input{
+                width: 50%;
+                text-align: center;
+            }
+            a{
+                text-decoration: none;
+                color: rgb(91, 79, 79);
+            }
+        </style>
+    </head>
+    <body>
+        <main>
+            <h1>Signup</h1>
+            <h3>Take the next steps to apply at AltSchool Africa</h3>
+            <a href="./index.html">Return to Homepage</a>
+            <p>            
+                <form>
+                    <label>First Name</label>
+                    <input type="text" placeholder="Enter Your First Name" />
+                    <br>
+                    <br>
+                    <label>Last Name</label>
+                    <input type="text" placeholder="Enter Your Last Name"/>
+                    <br>
+                    <br>
+                    <label>Gender</label>
+                    <select>
+                        <option>Choose Gender</option>
+                        <option>Male</option>
+                        <option>Female</option>
+                    </select>
+                    <br>
+                    <br>
+                    <label>Date Of Birth</label>
+                    <input type="date"/>
+                    <br>
+                    <br>
+                    <label>Email Address</label>
+                    <input type="email" placeholder="example@gmail.com"/>
+                    <br>
+                    <br>
+                    <label>Phone Number</label>
+                    <input type="number" placeholder="08012345678"/>
+                    <br>
+                    <br>
+                    <label>Country</label>
+                    <select>
+                        <option>Choose Your Country</option>
+                        <option>Nigeria</option>
+                        <option>USA</option>
+                        <option>Iran</option>
+                        <option>Afghanistan</option>
+                        <option>UK</option>
+                        <option>Austalia</option>
+                    </select>
+                    <br>
+                    <br>
+                    <label>State/City of Residence</label>
+                    <input type="text" placeholder="Enter Your state of Residence"/>
+                    <br>
+                    <br>
+                    <label>How did you hear about us?</label>
+                    <select>
+                        <option>Select Channel</option>
+                        <option>Twitter</option>
+                        <option>Whatsapp</option>
+                        <option>Facebook</option>
+                        <option>Instagram</option>
+                        <option>Other</option>
+                    </select>
+                    <br>
+                    <br>
+                    <label>Password</label>
+                    <input type ="password" placeholder ="Enter password"/>
+                    <br>
+                    <br>
+                    <label>Confirm Password</label>
+                    <input type ="password" placeholder ="Enter password again"/>
+                    <br>
+                    <br>
+                    <input id="button" type="submit"/>
+                </form>           
+            </p>
+        </main>
+    </body>
+</html>
